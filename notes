@@ -1,0 +1,38 @@
+- Human Resource
+-- Employee Management
+--- Department
+        department_id
+        department_name
+        alias
+        added_by
+--- Designation
+        designation_id
+        designation_name
+        alias
+        added_by
+--- Employee
+        employee_id
+        title
+        first_name
+        middle_name
+        last_name
+        name_alias
+        gender
+        birth_date
+        joining_date
+        department
+        designation
+        category
+        email
+        phone
+        marital_status
+        nationality
+        total_experience_year
+        total_experience_month
+        added_by
+--- Employee Listing
+Id + Name + Email + Department + Designation + Category
+Filter (Department, Designation, Category, email, employee_id)
+
+--- Import Employee
+--- Shift Allocation
